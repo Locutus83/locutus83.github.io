@@ -69,3 +69,23 @@ main > .tagline {
 	width: 2.65rem;
 	height: 2.65rem;
 }
+
+table {
+	table-layout: fixed;
+}
+
+table .section-header {
+	width: 75px;
+}
+
+table .content-header {
+	width: 25px;
+}
+
+table .content-details {
+	width: 100%;
+}
+
+table .section-dates {
+	width: 100px;
+}
