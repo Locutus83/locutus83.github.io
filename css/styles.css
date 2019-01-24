@@ -70,22 +70,50 @@ main > .tagline {
 	height: 2.65rem;
 }
 
+
+/* My custom table layout css */
 table {
 	table-layout: fixed;
+	min-width: 470px;
 }
 
 table .section-header {
-	width: 75px;
+	width: 100px;
 }
 
 table .content-header {
-	width: 25px;
+	width: 50px;
 }
 
 table .content-details {
-	width: 100%;
+	width: auto;
 }
 
 table .section-dates {
-	width: 100px;
+	width: 275px;
+}
+
+table tr td:nth-child(3) {
+	text-align: right;
+}
+
+td {
+	overflow-wrap: break-word;
+}
+
+h1, h2, h4 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+h5 {
+	margin-bottom: 0;
+}
+
+hr .double {
+	border-top: 6px solid #8c8b8b;
+}
+
+hr .double {
+	border-top: 3px solid #8c8b8b;
 }
