@@ -1,115 +1,115 @@
 /* Typography */
 
 html {
-	font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 @media (min-width: 576px) {
-	html {
-		font-size: 14px;
-	}
+    html {
+        font-size: 14px;
+    }
 }
 
 @media (min-width: 768px) {
-	html {
-		font-size: 16px;
-	}
+    html {
+        font-size: 16px;
+    }
 }
 
 @media (min-width: 992px) {
-	html {
-		font-size: 18px;
-	}
+    html {
+        font-size: 18px;
+    }
 }
 
 @media (min-width: 1200px) {
-	html {
-		font-size: 20px;
-	}
+    html {
+        font-size: 20px;
+    }
 }
 
 .icons-social i {
-	font-size: 3em;
+    font-size: 3em;
 }
 
 /* Custom Styles */
 
 main {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	justify-content: center;
-	padding: 0 30px;
-	text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    padding: 0 30px;
+    text-align: center;
 }
 
 main > .intro {
-	font-family: 'Reem Kufi', sans-serif;
-	font-size: 3.75em;
-	font-weight: 600;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 3.75em;
+    font-weight: 600;
 }
 
 main > .tagline {
-	font-size: 1.5rem;
-	margin: 1.5rem 0;
-	font-weight: 100;
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+    font-weight: 100;
 }
 
 .icons-social i {
-	padding: 10px;
+    padding: 10px;
 }
 
 .devto {
-	margin-bottom: -0.20rem;
+    margin-bottom: -0.20rem;
 }
 
 .devto svg {
-	margin-bottom: -0.20rem;
-	margin-left: 0.675rem;;
-	width: 2.65rem;
-	height: 2.65rem;
+    margin-bottom: -0.20rem;
+    margin-left: 0.675rem;;
+    width: 2.65rem;
+    height: 2.65rem;
 }
 
 
 /* My custom table layout css */
 table {
-	table-layout: fixed;
-	min-width: 470px;
+    table-layout: fixed;
+    min-width: 470px;
 }
 
 table .section-header {
-	width: 100px;
+    width: 100px;
 }
 
 table .content-header {
-	width: 50px;
+    width: 50px;
 }
 
 table .content-details {
-	width: auto;
+    width: auto;
 }
 
 table .section-dates {
-	width: 275px;
+    width: 275px;
 }
 
 table tr td:nth-child(3) {
-	text-align: right;
+    text-align: right;
 }
 
 td {
-	overflow-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 h1, h2, h4, h5 {
-	margin-bottom: 0;
-	margin-top: 0;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 hr .thick {
-	border-top: 6px solid #8c8b8b;
+    border-top: 6px solid #8c8b8b;
 }
 
 hr .thin {
-	border-top: 3px solid #8c8b8b;
+    border-top: 3px solid #8c8b8b;
 }

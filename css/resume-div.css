@@ -30,7 +30,7 @@ div .objective-container {
 
 div .section-header {
     border-top: 1px solid;
-    padding-top: 5px;
+    padding-top: 20px;
 }
 
 div .content-header {
@@ -52,6 +52,11 @@ div .section-dates {
 
 div .separator {
     width: 100%;
+}
+
+div .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 div hr .thick {
