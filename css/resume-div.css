@@ -1,0 +1,67 @@
+div {
+    overflow-wrap: break-word;
+}
+
+div .header-name {
+    float: left;
+}
+
+div .header-contact {
+    max-width: 275px;
+    text-align: right;
+    float: right;
+}
+
+div .objective-header {
+    float: left;
+    width: 100px;
+    height: inherit;
+    overflow: hidden;
+}
+
+div .objective-content {
+    overflow: hidden;
+}
+
+div .objective-container {
+    border-top: 3px double;
+    padding-top: 5px;
+}
+
+div .section-header {
+    border-top: 1px solid;
+    padding-top: 5px;
+}
+
+div .content-header {
+    float: left;
+    padding-left: 100px;
+    padding-top: 5px;
+    width: 50%;
+}
+
+div .content-details {
+    float: left;
+    padding-left: 150px;
+}
+
+div .section-dates {
+    text-align: right;
+    /*float: right;*/
+}
+
+div .separator {
+    width: 100%;
+}
+
+div hr .thick {
+    border-top: 6px solid #8c8b8b;
+}
+
+div hr .thin {
+    border-top: 3px solid #8c8b8b;
+}
+
+.clear {
+    clear: both;
+}

@@ -101,7 +101,7 @@ td {
 	overflow-wrap: break-word;
 }
 
-h1, h2, h4 {
+h1, h2, h4, h5 {
 	margin-bottom: 0;
 	margin-top: 0;
 }
@@ -110,10 +110,10 @@ h5 {
 	margin-bottom: 0;
 }
 
-hr .double {
+hr .thick {
 	border-top: 6px solid #8c8b8b;
 }
 
-hr .double {
+hr .thin {
 	border-top: 3px solid #8c8b8b;
 }
